@@ -10,12 +10,8 @@
         "noFallthroughCasesInSwitch": true,
         "baseUrl": ".",
         "paths": {
-            "@/*": [
-                "./src/client/*"
-            ],
-            "@@/*": [
-                "./src/server/*"
-            ]
+            "@/*": ["./src/client/*"],
+            "@@/*": ["./src/server/*"]
         },
         "composite": true
     },

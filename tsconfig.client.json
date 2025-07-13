@@ -4,11 +4,7 @@
         "composite": true,
         "module": "ESNext",
         "moduleResolution": "bundler",
-        "lib": [
-            "ES2020",
-            "DOM",
-            "DOM.Iterable"
-        ],
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
         "jsx": "react-jsx",
         "useDefineForClassFields": true,
         "allowImportingTsExtensions": true,
@@ -17,17 +13,8 @@
         "noEmit": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "types": [
-            "vite/client"
-        ]
+        "types": ["vite/client"]
     },
-    "include": [
-        "src/client/**/*",
-        "vite.config.mjs"
-    ],
-    "exclude": [
-        "node_modules",
-        "dist",
-        "src/server"
-    ]
+    "include": ["src/client/**/*", "vite.config.mjs"],
+    "exclude": ["node_modules", "dist", "src/server"]
 }

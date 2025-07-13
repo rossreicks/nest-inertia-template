@@ -13,14 +13,8 @@
         "noImplicitAny": false,
         "strictBindCallApply": false,
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
+        "emitDecoratorMetadata": true
     },
-    "include": [
-        "src/server/**/*"
-    ],
-    "exclude": [
-        "node_modules",
-        "dist",
-        "src/client"
-    ]
+    "include": ["src/server/**/*"],
+    "exclude": ["node_modules", "dist", "src/client"]
 }

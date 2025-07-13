@@ -21,9 +21,7 @@
     },
     "overrides": [
         {
-            "includes": [
-                "src/server/**/*.ts"
-            ],
+            "includes": ["src/server/**/*.ts"],
             "linter": {
                 "rules": {
                     "correctness": {
@@ -32,5 +30,8 @@
                 }
             }
         }
-    ]
+    ],
+    "files": {
+        "includes": ["!dist/**/*.js"]
+    }
 }

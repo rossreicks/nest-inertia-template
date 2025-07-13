@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { Globe, Heart } from "lucide-react";
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 
 export default function Hello({ message }: { message: string }) {
     const [likes, setLikes] = useState(0);
